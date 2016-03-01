@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_dependency 'multi_json', '~> 1.3'
-  s.add_runtime_dependency 'omniauth-oauth2'
+  s.add_runtime_dependency 'omniauth-oauth2', '1.3.1'
   s.add_runtime_dependency 'coinbase'
   s.add_development_dependency 'rspec', '~> 2.7'
   s.add_development_dependency 'rack-test'
